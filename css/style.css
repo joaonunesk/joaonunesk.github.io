@@ -1,0 +1,36 @@
+body {
+    background: radial-gradient(ellipse at center, #363a93 50%, #363a93 100%);
+    overflow: hidden;
+}
+.container {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.header {
+    margin-bottom: 30px;
+}
+.social-buttons {
+    margin-left: 12px;
+}
+.fa {
+    color: #FFF;
+    margin-right: 10pt;
+}
+@media only screen and (max-device-width: 667px) {
+    .container img {
+        width: 600px;
+    }
+    .fa {
+        margin-right: 10pt;
+    }
+    a {
+        font-size: 40px;
+        margin-right: 13pt;
+    }
+    .social-buttons {
+        margin-left: 35px;
+    }
+}
